@@ -1,0 +1,47 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .timer-display {
+    margin-bottom: 20px;
+  }
+  
+  .timer-display input {
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    border: none;
+    background: transparent;
+  }
+  
+  .timer-controls button {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timer-controls button:hover {
+    background-color: #357ae8;
+  }
+  
+  .timer-controls button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
